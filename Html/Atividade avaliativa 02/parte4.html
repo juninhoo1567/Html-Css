@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS.css">
+    <title>Parte04</title>
+</head>
+<body>
+    <fieldset>
+        <legend class="legends">Login</legend>
+
+        <p>
+            <label for="Xusuario">Usuário:</label>
+            <input type="text" name="Usuário" id="Xusuario">
+        </p>
+        <p>
+            <label for="Isenha">Senha:</label>
+            <input type="text" name="Senha:" id="Isenha">
+        </p>
+        <p><input class="value" type="submit" value="Entrar"></p>
+
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend class="legends">Administração de perfis</legend>
+
+        <p>
+            <label for="Xusuario">Usuário:</label>
+            <input type="text" name="Usuário" id="Xusuario">
+        </p>
+        <p>
+            <label for="Isenha">Senha:</label>
+            <input type="text" name="Senha:" id="Isenha">
+        </p>
+        <p>Perfis:</p>
+
+            <input type="checkbox" name="Administrador" id="Adm">
+            <label for="Adm">Administrador</label><br>
+            
+            <input type="checkbox" name="Aluno" id="Al">
+            <label for="Al">Aluno</label><br>
+
+            <input type="checkbox" name="Professor" id="Pf">
+            <label for="Pf">Professor</label><br>
+
+            <p><input class="value" type="submit" value="Salvar"></p>
+        
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend class="legends">Matrícula</legend>
+
+            <p>Semestre letivo: 2015.2 </p>
+
+            <table>
+                <thead>
+                    <th></th>
+                    <th>Aluno</th>
+                    <th>Matrícula</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="radio" name="Jõao" id="J"></td>
+                        <td>Jõao</td>
+                        <td>201421</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="Maria" id="M"></td>
+                        <td>Maria</td>
+                        <td>201322</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="Pedro" id="P"></td>
+                        <td>Pedro</td>
+                        <td>2010168</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="Joana" id="J"></td>
+                        <td>Joana</td>
+                        <td>201511</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <label for="Xdisciplina">Disciplina:</label>
+            <select name="Disciplina:" id="Xdisciplina">
+                <option value="">---Selecione---</option>
+                <option value="A">Disciplina A</option>
+                <option value="B">Disciplina B</option>
+                <option value="C">Disciplina C</option>
+            </select>
+            <p>
+                Nota 1: 5,0 
+                Nota 2: 8,0
+                Nota 3: 7,0
+            </p>
+            <p>
+                Faltas 1 unidade: 5,0
+                Faltas 3 unidade: 8,0
+                Faltas 3 unidade: 7,0
+            </p>
+            <p><input class="value" type="submit" value="Entrar"></p>
+
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend class="legends">Turma</legend>
+
+            <p>Semestre letivo: 2015.2 </p>
+
+            <label for="Xcurso">Curso:</label>
+            <select name="Curso:" id="Xcurso">
+                <option value="">---Selecione---</option>
+                <option value="A">Curso A</option>
+                <option value="B">Curso B</option>
+                <option value="C">Curso C</option>
+            </select>
+            <br>
+            <br>
+            <label for="Xdisciplina">Disciplina:</label>
+            <select name="Disciplina:" id="Xdisciplina">
+                <option value="">---Selecione---</option>
+                <option value="A">Disciplina A</option>
+                <option value="B">Disciplina B</option>
+                <option value="C">Disciplina C</option>
+            </select>
+            <br>
+            <br>
+            <label for="Xprofessor">Professor:</label>
+            <select name="Professor:" id="Xprofessor">
+                <option value="">---Selecione---</option>
+                <option value="A">Professor A</option>
+                <option value="B">Professor B</option>
+                <option value="C">Professor C</option>
+            </select>
+            <br>
+            <p>
+                <label for="Xvagas">Vagas:</label>
+                <input type="text" name="Vagas" id="Xvagas">
+            </p>
+            <p><input class="value" type="submit" value="Entrar"></p>
+            
+
+
+        </fieldset>
+    
+</body>
+</html>

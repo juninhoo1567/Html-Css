@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <h1>Produtos:</h1>
+            <fieldset>
+                <legend>Produtos</legend>
+                <br>
+                
+                <p>
+                    <label for="Icodigo">Código:</label>
+                    <input type="text" name="Código" id="Icodigo">
+                </p>
+                <p>
+                    <label for="Idescrição">Descriçaõ:</label>
+                    <input type="text" name="Descriçaõ" id="Idescrição">
+                </p>
+                <p>
+                    <label for="IQuantidade">Quantidade</label>
+                    <input type="text" name="Quantidade" id="IQuantidade">
+                </p>
+                <label for="IPerecivel">Perecivel:</label>
+                <select name="Perecivel" id="IPerecivel">
+                    <option value="">Selecione</option>
+                    <option value="1">Sim</option>
+                    <option value="2">Não</option>
+                </select>
+                
+                <label for="Iva">Validade</label>
+                <input type="date" name="Validade" id="Iva">
+                <br>
+                <br>
+                <input type="submit" name="salvar" value="salvar">
+                <input type="submit" name="Cancelar" value="Cancelar">
+
+            </fieldset>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Pesquisas mesas:</legend>
+            <br>
+            <label for="Idescrição">Descrição</label>
+            <input type="text" name="Descriçaõ" id="Idescrição">
+
+            <input type="submit" name="Pesquisar" value="Pesquisar">
+            <br>
+            <br>
+                 <table border="1">
+                    <thead>
+                           <th>Descrição</th>
+                           <th>Quantidade</th>
+                           <th>Perecível</th>
+                           <th>Validade</th>
+                    </thead>
+                    <tbody>
+                     <tr>
+                        <td>A</td>
+                        <td>10</td>
+                        <td>Não</td>
+                        <td></td>
+                     </tr>
+                      <t>
+                        <td>B</td>
+                        <td>145</td>
+                        <td>Sim</td>
+                        <td>10/10/2015</td>
+                      </t>
+                      <tr>
+                        <td>C</td>
+                        <td>8</td>
+                        <td>Não</td>
+                        <td></td>
+                     </tr>
+                     <tr>
+                        <td>D</td>
+                        <td>15</td>
+                        <td>Sim</td>
+                        <td>31/12/2013</td>
+                     </tr>
+                     <tr>
+                        <td>E</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                     </tr>
+                      <tr>
+                        <td>F</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </fieldset>
+               </fieldset>
+               <br>
+
+            
+
+        </fieldset>
+        
+    </form>
+    
+</body>
+</html>

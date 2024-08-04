@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <h1>Mesas:</h1>
+            <fieldset>
+                <legend>Mesas</legend>
+            
+            <br>
+            
+            <label for="Inumero">Numero:</label>
+            <input type="text" name="Numero" id="Inumero">
+
+            <label for="Iqtd">Quantidade Clientes:</label>
+            <input type="text" name="Quantidade Clientes" id="Iqtd">
+
+            <label for="Iatendente">Atendente:</label>
+            <select name="Atendente" id="Iatendente">
+                <option value="">Selecione</option>
+            </select>
+
+            <label for="Istatus">Status:</label>
+            <select name="Status" id="Istatus">
+                <option value="">Selecione</option>
+                <option value="1">Disponivel</option>
+                <option value="2">Ocupado</option>
+                <option value="3">Reservado</option>
+            </select>
+
+            <label for="Idata">Data reserva</label>
+            <input type="date" name="Data reserva" id="Idata">
+            <br>
+            <br>
+            <input type="submit" name="salvar" value="salvar">
+            <input type="submit" name="Cancelar" value="Cancelar">
+            </fieldset>
+            <br>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Pesquisa mesas:</legend>
+            
+            <label for="Istatus">Status:</label>
+            <select name="Status" id="Istatus">
+                <option value="">Selecione</option>
+                <option value="1">Disponivel</option>
+                <option value="2">Ocupado</option>
+                <option value="3">Reservado</option>
+            </select>
+
+            <label for="Inumero">Numero</label>
+            <input type="text" name="Numero" id="Inumero">
+
+            <input type="submit" name="Pesquisar" value="Pesquisar">
+        </fieldset>
+        <br>
+        <table border="1">
+            <thead>
+                 <th>Número</th>
+                 <th>Atendente</th>
+                 <th>Status</th>
+            </thead>
+            <tbody>
+             <tr>
+              <td>1 </td>
+              <td>Garçon1</td>
+              <td>Ocupada</td>
+             </tr>
+              <tr>
+                 <td>2</td>
+                 <td></td>
+                 <td>Disponível</td>
+              </tr>
+               <tr>
+                  <td>3</td>
+                  <td></td>
+                  <td>Reservada</td>
+               </tr>
+                <tr>
+                    <td>4</td>
+                    <td></td>
+                    <td>Disponível</td>
+                </tr>
+                    <tr>
+                        <td>5</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td></td>
+                        <td></td>
+                     </tr>
+           </tbody>
+         </table>
+        </fieldset>
+    </fieldset>
+
+
+  
+    </form>
+    
+</body>
+</html>

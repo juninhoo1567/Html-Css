@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS.css">
+    <title>Tabela</title>
+</head>
+<body>
+    <main>
+        <form action="cadastro.php" method="get" autocomplete="off">
+            <fieldset>
+                <legend class="base">Dados basicos</legend>
+                <label>Nome: <input type="text" nome ="nome"> </label>
+                <br>
+                <br>
+                <label for="Email">Email</label>
+                <input type="text" name="Email" id="Email" required>
+                <br>
+                <br>
+                <label for="Sexo">Sexo</label>
+                <input type="text" sexo ="sexo" id="Sexo">
+            <select>
+                <option value="1">Genero</option>
+                <option value="2">Masculino</option>
+                <option value="3">Feminino</option>
+                
+            </select>
+            <br>
+            <br>
+            <fieldset>
+                <p>Faça uma cópia do seu RG</p>
+
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend class="base">Dados de login</legend>
+                <label for="Usuario">Usuario:</label>
+                <input type="text" name ="Usuario" id="Usuario">
+
+                <label for="Senha">Senha:</label>
+                <input type="text" Senha="Senha" id="Senha">
+                
+
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend class="base">Dados de enderenço</legend>
+                <label for="endereço">Endereço:</label>
+                <input type="text" name ="Endereço" id="endereço">
+                
+                <label for="Cidade">Cidade:</label>
+                <input type="text" name ="Cidade" id="Cidade">
+                
+                <label for="Estado">Estado:</label>
+                
+                <select>
+                    <option value="SE">Sergipe</option>
+                    <option value="BA">Bahia</option>
+                    <option value="AL">Alagoas</option>
+                </select>
+                <br>
+                <br>
+                
+                <input type="submit" value="enviar">
+            </fieldset>
+            
+            <br>
+            <fieldset>
+                    <legend>Perguntas</legend>
+                    
+                    <p> 
+                        Que tipo de navegador você prefere?
+                    <input type="radio" name="navegador" id="chrome">
+                    <label for="chrome">chrome</label> 
+
+                    <input type="radio" name="navegador" id="Safari">
+                    <label for="Safari">Safari</label>
+
+                    <input type="radio" name="navegador" id="Edge">
+                    <label for="Edge">Edge</label>
+
+                    <input type="radio" name="navegador" id="Netscape">
+                    <label for="Netscape">Netscape</label>
+
+                    </p>
+                    <p>
+                        Quais das ferrmentas abaixo voçê já ultilizou?
+                        <br>
+                        <br>
+                        <input type="checkbox" name="bcl" id="bcl">
+                        <label for="bcl">Bloco de notas: </label>
+                        <br>
+                        <input type="checkbox" name="np" id="np">
+                        <label for="np">NotePad: </label>
+                        <br>
+                        <input type="checkbox" name="sf" id="sf">
+                        <label for="sf">Safari: </label>
+                        <br>
+                        <input type="checkbox" name="vS" id="vs">
+                        <label for="vc">Visual Studio Code: </label>
+                    </p>
+                    <p>Resuma oque voçê esta achando do curso FIQ</p>
+                    <br>
+                    <label for="msg">Mensagem:</label><br>
+                    <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+
+                    
+            </fieldset>
+            <input type="submit" value="Enivar">
+
+        </form>
+    </main>
+</body>
+</html>
+
+
+
+            
+        
